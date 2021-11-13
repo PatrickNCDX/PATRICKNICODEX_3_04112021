@@ -1,0 +1,369 @@
+html, body, p, ol, ul, li, figure, hr, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3  {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  button, input, select {
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+ /* Début Header */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+  }
+  .header__logo {
+    font-family: "Shrikhand", cursive;
+    color: black;
+    font-size: 35px;
+  }
+  /* Fin Header */
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  /* Débute Hero */
+  .hero {
+    width: 100%;
+    height: 40%;
+  }
+  .hero__img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+  .hero__img::before {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    content: "";
+    background-color: #F6F6F6;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px 2rem;
+  }
+  .hero__content__button {
+    text-align: center;
+  }
+  .hero__content__button--activ {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 18px 25px;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
+    box-shadow: 0 0 10px #0000002e;
+    cursor: pointer;
+  }
+  .hero__content__button--activ:hover {
+    background: linear-gradient(to bottom, #ff79da 0%, #ff79da 100%);
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__gps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 12px 0px;
+    background: #f1f1f1;
+    color: #7a7a7a;
+  }
+  .hero__gps__icon {
+    padding: 0px 10px;
+  }
+  .hero__gps p {
+    font-size: 17px;
+    font-weight: 300;
+  }
+  
+  .hero__content {
+    padding: 35px 15px;
+    background: #F6F6F6;
+  }
+  
+  .hero__content__text h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px 15px;
+  }
+  
+  .hero__content__text h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    color: #7a7a7a;
+    padding: 15px 0px;
+  }
+/* Fin Hero */
+/* Début Fonctionnement */
+  .fonction {
+    padding: 30px 30px;
+  }
+  .fonction h3 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .fonction__button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .fonction__button__content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #F6F6F6;
+    padding: 18px 20px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    box-shadow: 3px 5px 8px #cfcfcf;
+    cursor: pointer;
+  }
+  .fonction__button__content:hover {
+    background-color: #F5EDFF;
+  }
+  .fonction__button__content li {
+    padding: 10px 0px;
+  }
+  .fonction__button__content__numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #9356dc;
+    color: white;
+    border-radius: 20px;
+    margin-left: -30px;
+  }
+  .fonction__button__content__icon {
+    padding: 0px 15px;
+    color: #7a7a7a;
+  }
+  .fonction__button__content h2 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+/* Fin Fonctionnement */
+/* Début Restaurant */
+  .resto {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    background: #F6F6F6;
+  }
+  .resto__titre {
+    padding: 15px 0px;
+  }
+  .resto__titre h3 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .resto__annonce {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    margin: 15px 0px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 8px #cfcfcf;
+  }
+  .resto__annonce:hover {
+    transform: scale(1.05);
+  }
+  .resto__annonce__img img {
+    height: 9rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .resto__annonce-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    background: #99e2d0;
+  }
+  .resto__annonce-new p {
+    color: #1b6150;
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .resto__annonce__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .resto__annonce__content__text {
+    padding: 10px 15px;
+  }
+  .resto__annonce__content__text h2 {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 2px 0px;
+  }
+  .resto__annonce__content__text p {
+    font-weight: 200;
+    font-size: 15px;
+    padding: 2px 0px;
+  }
+  .resto__annonce__content__icon {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .resto__annonce__content__icon-empty {
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 25px;
+    color: #535353;
+    cursor: pointer;
+  }
+  .resto__annonce__content__icon-full {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    opacity: 0;
+    padding: 10px 15px;
+    font-size: 25px;
+  }
+  /* Fin Restaurant */
+  /* Début Footer */
+  .footer {
+    background: #353535;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+  }
+  .footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer__logo {
+    font-family: "Shrikhand", cursive;
+    padding: 10px 0px;
+  }
+  .footer__logo a {
+    font-size: 20px;
+    color: white;
+  }
+  .footer li {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    column-gap: 10px;
+    cursor: pointer;
+  }
+  
+  .footer li:hover {
+    transform: scale(1.25);
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .footer {
+      padding: 25px;
+    }
+    .footer__content {
+      max-width: 1200px;
+      margin: auto;
+      padding: 15px 2rem;
+      width: 100%;
+    }
+    .footer ul {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .fonction {
+      padding: 30px 0px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 2rem;
+    }
+    .fonction__button {
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 15px;
+    }
+    .fonction__button__content {
+      width: 30%;
+    }
+    .resto {
+      padding: 15px 25px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 15px 2rem;
+    }
+    .resto__lesannonces {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .resto__annonce {
+      width: 48%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .resto {
+      border-radius: 25px;
+      margin-bottom: 40px;
+    }
+    .resto__annonce__img img {
+      height: 13rem;
+    }
+  }
+    @media screen and (min-width: 1000px){
+        .hero__img img {
+            height: 500px;
+            object-fit: cover;
+            max-width: 100%;
+            width: 100%;
+          }
+    }
+/* Fin Footer */
+
+  
