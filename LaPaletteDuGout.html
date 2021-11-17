@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La palette du goût</title>
+
+    <link rel="stylesheet" href="Public/main.css">
+
+    <script src="https://kit.fontawesome.com/98d512f75e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html" class="header__back">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <div class="header__logo">
+                <a href="index.html">ohmyfood</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__img">
+            <img src="Public/images/restaurants/Restaurant1.jpg" alt="Image du restaurant La palette du gout">
+        </div>
+    </section>
+
+    <div class="menu">
+        <div class="lemenu">
+            <div class="lemenu__titre">
+                <div class="lemenu__titre__nom">
+                    <h2>La palette du goût</h2>
+                </div>
+                <div class="resto__annonce__content__icon">
+                    <i class="far fa-heart resto__annonce__content__icon-empty"></i>
+                    <i class="fas fa-heart resto__annonce__content__icon-full"></i>
+                </div>
+            </div>
+            <div class="lemenu__manger">
+                <div class="lemenu__entrees">
+                    <div class="lemenu__title">
+                        <p>ENTRÉES</p>
+                    </div>
+                    <div class="lemenu__ligne"></div>
+
+                    <div class="lemenu__card" id="card1">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Fricassée d'escargot</h3>
+                                <p>Au piment d'Espelette</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>25€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="lemenu__card" id="card2">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Foie gras de canard mi-cuit</h3>
+                                <p>Et ses copeaux de truffe noire</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>35€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="lemenu__card" id="card3">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Oeuf au plat</h3>
+                                <p>Assaisonné à la truffe sur lit de caviar</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>20€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="lemenu__plats">
+                    <div class="lemenu__title">
+                        <p>PLATS</p>
+                    </div>
+                    <div class="lemenu__ligne"></div>
+
+                    <div class="lemenu__card" id="card4">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Filet de boeuf aux herbes</h3>
+                                <p>Accompagné de sa ribambelle de légumes</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>40€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="lemenu__card" id="card5">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Parmentier de queue de boeuf</h3>
+                                <p>À la truffe noire sur sa purée de panais</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>35€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="lemenu__card" id="card6">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Filet de turbot</h3>
+                                <p>Aux agrumes</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>44€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="lemenu__desserts">
+                    <div class="lemenu__title">
+                        <p>DESSERTS</p>
+                    </div>
+                    <div class="lemenu__ligne"></div>
+
+                    <div class="lemenu__card" id="card7">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Paris-Brest</h3>
+                                <p>Revisité</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>18€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="lemenu__card" id="card8">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Macaron au chocolat d'exception</h3>
+                                <p>Et glace à la vanille de Madagascar</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>22€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="lemenu__card" id="card9">
+                        <div class="lemenu__card__text">
+                            <div class="lemenu__card__text__nom">
+                                <h3>Mousse au chocolat</h3>
+                                <p>Au piment d'Espelette et à la truffe noire</p>
+                            </div>
+                            <div class="lemenu__card__text__prix">
+                                <p>23€</p>
+                            </div>
+                        </div>
+                        <div class="lemenu__card-validation">
+                            <i class="fas fa-check-circle lemenu__card-validation-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lemenu__button">
+            <button class="lemenu__button--activ">Commander</button>
+        </div>
+    </div>
+
+
+    <section class="footer">
+        <div class="footer__content">
+            <div class="footer__logo">
+                <a href="index.html">ohmyfood</a>
+            </div>
+
+            <ul class="footer__ul">
+                <li class="footer__ul__liens">
+                    <a href="#" class="footer__ul__liens_icon">
+                        <i class="fas fa-utensils"></i>
+                    </a>
+                    <a href="#" class="footer__ul__liens__titre">
+                        <h3>Proposer un restaurant</h3>
+                    </a>
+                </li>
+
+                <li class="footer__ul__liens">
+                    <a href="#" class="footer__ul__liens_icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </a>
+                    <a href="#" class="footer__ul__liens__titre">
+                        <h3>Devenir partenaire</h3>
+                    </a>
+                </li>
+
+                <li class="footer__ul__liens">
+                    <a href="#" class="footer__ul__liens__titre">
+                        <h3>Mentions légales</h3>
+                    </a>
+                </li>
+
+                <li class="footer__ul__liens">
+                    <a href="#" class="footer__ul__liens__titre">
+                        <h3>Contact</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>

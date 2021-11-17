@@ -1,4 +1,4 @@
-html, body, p, ol, ul, li, figure, hr, h1, h2, h3 {
+html, body, p, ul, li, figure, hr, h1, h2, h3 {
     margin: 0;
     padding: 0;
   }
@@ -221,6 +221,8 @@ html, body, p, ol, ul, li, figure, hr, h1, h2, h3 {
     right: 25px;
     top: 20px;
     background: #99e2d0;
+    border-radius: 3px;
+    box-shadow:#0000002e;
   }
   .resto__annonce-new p {
     color: #1b6150;
@@ -297,7 +299,7 @@ html, body, p, ol, ul, li, figure, hr, h1, h2, h3 {
   }
   
   .footer li:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
   }
   
   @media screen and (min-width: 1000px) {
