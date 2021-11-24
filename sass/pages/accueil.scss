@@ -11,6 +11,7 @@ body {
         padding: 12px 0px;
         background: #f1f1f1;
         color: $grey-medium;
+        box-shadow: 3px 0px 0px rgba(0, 0, 0, 0.692);
         &__icon {
             padding: 0px 10px;
         }
@@ -176,6 +177,12 @@ a:visited {
                     padding: 10px 15px;
                     font-size: 25px;
                     background: linear-gradient(to bottom, $rose 0%, $violet 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -moz-background-clip: text;
+                    -webkit-text-fill-color: transparent; 
+                    -moz-text-fill-color: transparent;
+            
                     transition: 0.3s ease;
                     &:hover {
                         opacity: 1;
