@@ -150,7 +150,7 @@ img, video {
     opacity: 1;
     height: 100vh;
   }
-  40% {
+  50% {
     opacity: 1;
     height: 100vh;
   }
@@ -165,7 +165,7 @@ img, video {
     opacity: 1;
     height: 100vh;
   }
-  40% {
+  50% {
     opacity: 1;
     height: 100vh;
   }
@@ -173,6 +173,19 @@ img, video {
     opacity: 0;
     display: none;
     height: 0px;
+  }
+}
+@keyframes animatedText {
+  to {
+    background-position: 100%;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0);
   }
 }
 .lemenu__button {
@@ -216,6 +229,7 @@ img, video {
 .loader__section {
   height: 100vh;
   display: flex;
+  background-color: #99e2d0;
   justify-content: center;
   align-items: center;
   -webkit-animation: loader 5s both;
@@ -230,22 +244,9 @@ img, video {
   color: transparent;
   background-size: 300%;
   background-position: -100%;
-  animation: animatedText 10s infinite alternate, spin 2s linear;
+  animation: animatedText 10s infinite alternate, spin 2.5s linear;
 }
 
-@keyframes animatedText {
-  to {
-    background-position: 100%;
-  }
-}
-@keyframes spin {
-  0% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(0);
-  }
-}
 body {
   font-family: "Roboto", sans-serif;
 }

@@ -45,7 +45,7 @@
       opacity: 1;
       height: 100vh;
     }
-    40% {
+    50% {
       opacity: 1;
       height: 100vh;
     }
@@ -60,7 +60,7 @@
       opacity: 1;
       height: 100vh;
     }
-    40% {
+    50% {
       opacity: 1;
       height: 100vh;
     }
@@ -69,4 +69,13 @@
       display: none;
       height: 0px;
     }
+  }
+  @keyframes animatedText{
+    to{
+        background-position: 100%; 
+    }
+}
+@keyframes spin {
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0);}
   }
