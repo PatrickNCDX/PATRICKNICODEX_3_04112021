@@ -32,27 +32,12 @@
 }
   @keyframes fade-in-bottom {
     0% {
-              transform: translateY(10px);
+      transform: translateY(10px);
       opacity: 0;
     }
     100% {
-              transform: translateY(0);
+      transform: translateY(0);
       opacity: 1;
-    }
-  }
-  @-webkit-keyframes loader {
-    0% {
-      opacity: 1;
-      height: 100vh;
-    }
-    50% {
-      opacity: 1;
-      height: 100vh;
-    }
-    100% {
-      opacity: 0;
-      display: none;
-      height: 0px;
     }
   }
   @keyframes loader {
@@ -67,7 +52,7 @@
     100% {
       opacity: 0;
       display: none;
-      height: 0px;
+      height: 0vh;
     }
   }
   @keyframes animatedText{
@@ -75,7 +60,7 @@
         background-position: 100%; 
     }
 }
-@keyframes spin {
+  @keyframes spin {
     0% {transform: rotate(360deg);}
     100% {transform: rotate(0);}
   }

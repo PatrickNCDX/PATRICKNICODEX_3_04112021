@@ -145,21 +145,6 @@ img, video {
     opacity: 1;
   }
 }
-@-webkit-keyframes loader {
-  0% {
-    opacity: 1;
-    height: 100vh;
-  }
-  50% {
-    opacity: 1;
-    height: 100vh;
-  }
-  100% {
-    opacity: 0;
-    display: none;
-    height: 0px;
-  }
-}
 @keyframes loader {
   0% {
     opacity: 1;
@@ -172,7 +157,7 @@ img, video {
   100% {
     opacity: 0;
     display: none;
-    height: 0px;
+    height: 0vh;
   }
 }
 @keyframes animatedText {
