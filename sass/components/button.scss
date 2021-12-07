@@ -1,7 +1,7 @@
 .lemenu__button {
     text-align: center;
     padding-bottom: 30px;
-    &--activ {
+    &--active {
         font-size: 16px;
         font-weight: 500;
         color: white;
@@ -12,14 +12,14 @@
         background: linear-gradient(to bottom, $rose 0%, $violet 100%);
         @include shadow;
         &:hover {
-            background: linear-gradient(to bottom, $rose 0%, $rose 100%);; 
-         }
+            background: linear-gradient(to bottom, $rose 0%, $rose 100%);
+        }
     }
 }
 
 .hero__content__button {
     text-align: center;
-    &--activ {
+    &--active {
         font-size: 16px;
         font-weight: 500;
         color: white;
@@ -31,7 +31,7 @@
         box-shadow: 0 0 10px #0000002e;
         cursor: pointer;
         &:hover {
-            background: linear-gradient(to bottom, #ff79da 0%,  #ff79da 100%);
+            background: linear-gradient(to bottom, #ff79da 0%, #ff79da 100%);
         }
     }
 }

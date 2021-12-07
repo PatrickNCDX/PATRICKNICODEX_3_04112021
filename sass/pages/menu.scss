@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .hero {
@@ -33,9 +33,9 @@ body {
 .lemenu {
     padding: 20px 20px;
     &__ligne {
-        width:50px;
-	    height:5px;
-	    background:$blue;
+        width: 50px;
+        height: 5px;
+        background: $blue;
         margin: 5px 0px;
     }
     &__titre {
@@ -46,7 +46,7 @@ body {
         align-items: center;
         padding: 15px 0px;
         & h2 {
-            font-family: 'Shrikhand', cursive;
+            font-family: "Shrikhand", cursive;
             font-size: 25px;
         }
         & i {
@@ -63,7 +63,7 @@ body {
         margin: 15px 0px;
         @include shadow;
         transition: all 0.4s ease;
-	    animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
         cursor: pointer;
         overflow: hidden;
         &:hover {
@@ -114,58 +114,57 @@ body {
             @include center;
             font-size: 23px;
             color: white;
-            background: #99E2D0;
+            background: #99e2d0;
             border-radius: 0 15px 15px 0;
             width: 70px;
             padding: 0 13px;
-            margin-right: -70px; 
+            margin-right: -70px;
             &-icon {
                 transform: rotate(0deg);
-            }       
+            }
         }
-
     }
 }
 .lemenu__card .lemenu__card-validation-icon {
     transition: all 0.4s ease;
 }
 
-  @media screen and (min-width: 1000px) {
-      .hero__img img{
-            height: 500px;
-            object-fit: cover;
-            max-width: 100%;
-            width: 100%;
-      }
-      .menu {
-          max-width: 1500px;
-          margin: auto;
-          padding: 30px 2rem;
-          margin-bottom: 40px;
-          border-radius: 0px 0px 25px 25px;
-          @include shadow;
-      }
+@media screen and (min-width: 1000px) {
+    .hero__img img {
+        height: 500px;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+    }
+    .menu {
+        max-width: 1500px;
+        margin: auto;
+        padding: 30px 2rem;
+        margin-bottom: 40px;
+        border-radius: 0px 0px 25px 25px;
+        @include shadow;
+    }
 
-      .lemenu__manger {
-          display: flex;
-          justify-content: space-between;
-          flex-wrap: wrap;
-          column-gap: 10px;
-      }
-      .lemenu__card {
+    .lemenu__manger {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+    .lemenu__card {
         &__text__nom {
             p {
                 font-size: 16px;
             }
         }
-      }
-      .lemenu__entrees {
-          width: 30%;
-      }
-      .lemenu__plats {
+    }
+    .lemenu__entrees {
+        width: 30%;
+    }
+    .lemenu__plats {
         width: 30%;
     }
     .lemenu__desserts {
         width: 30%;
     }
-  }
+}

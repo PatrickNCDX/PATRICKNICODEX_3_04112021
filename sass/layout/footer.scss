@@ -9,7 +9,7 @@
         color: white !important;
     }
     &__logo {
-        font-family: 'Shrikhand', cursive;
+        font-family: "Shrikhand", cursive;
         padding: 10px 0px;
         & a {
             font-size: 20px;
@@ -29,7 +29,6 @@
 }
 
 @media screen and (min-width: 1000px) {
-    
     .footer {
         padding: 25px;
         &__content {
@@ -38,11 +37,10 @@
             padding: 15px 2rem;
             width: 100%;
         }
-            ul{
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row;
-            }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
         }
-
+    }
 }
